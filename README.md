@@ -7,27 +7,28 @@ is running without water for too long, and to make the circuit remember this fau
 cleared by pressing a RESET button manually.
 
 2. Apparatus / Materials Required :
- IC / Part No.  Component                    Qty
- 74LS74         D Flip-Flop                   1
- 74LS161        4-bit Synchronous Counter     1
- 74LS85         4-bit Magnitude Comparator    1
- 74HC02         Quad 2-Input NOR Gate         1
- 74LS04         Hex Inverter (NOT gate)       1
- 74LS08         Quad 2-Input AND Gate         1
- NE555          Timer IC (clock generator)    1
- BC547          NPN Transistor                2
- TIP122         NPN Darlington Transistor     1
- 1N5408         Flyback Diode                 1
- LM2596         Buck Converter Module         1
- Mini DC Submersible Pump (3-6V) / Load LED
- Metal / Stainless Steel Probes
- Breadboard (830 point)
- Resistors: 100k, 10k, 4.7k, 22k, 1k, 100k pot 
- Capacitors: 10uF, 10nF, 100nF, 100uF 
- Push Buttons (START and RESET)
- LEDs (fault / status indication)
- 12V DC Adapter
- Connecting wires, Multimeter
+IC / Part No.,Component,Qty
+74LS74,D Flip-Flop,1
+74LS161,4-bit Synchronous Counter,1
+74LS85,4-bit Magnitude Comparator,1
+74HC02,Quad 2-Input NOR Gate,1
+74LS04,Hex Inverter (NOT gate),1
+74LS08,Quad 2-Input AND Gate,1
+NE555,Timer IC (clock generator),1
+BC547,NPN Transistor,2
+TIP122,NPN Darlington Transistor,1
+1N5408,Flyback Diode,1
+LM2596,Buck Converter Module,1
+N/A,Mini DC Submersible Pump (3-6V) / Load LED,1
+N/A,Metal / Stainless Steel Probes,1 Set
+N/A,Breadboard (830 point),1
+Various,"Resistors: 100k, 10k, 4.7k, 22k, 1k, 100k pot",1 Set
+Various,"Capacitors: 10uF, 10nF, 100nF, 100uF",1 Set
+N/A,Push Buttons (START and RESET),2
+N/A,LEDs (fault / status indication),As required
+N/A,12V DC Adapter,1
+N/A,Connecting wires,As required
+N/A,Multimeter (for testing),1
 
 3. Theory :
 A water pump can get damaged if it keeps running when there is no water at its inlet. 
