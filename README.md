@@ -79,7 +79,6 @@ from water, watch the count reach 4, confirm the pump switches off on its own, t
 press RESET to repeat.
 
 5. Precautions 
-
 Always check the LM2596 output with a multimeter and set it to 5.0V before connecting 
 any IC.
 Keep the water container and the electrical breadboard physically separate from each 
