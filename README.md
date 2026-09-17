@@ -7,7 +7,7 @@ is running without water for too long, and to make the circuit remember this fau
 cleared by pressing a RESET button manually.
 
 2. Apparatus / Materials Required :
-IC / Part No.,Component,Qty
+IC / Part No.,Component,Qty\n
 74LS74,D Flip-Flop,1
 74LS161,4-bit Synchronous Counter,1
 74LS85,4-bit Magnitude Comparator,1
