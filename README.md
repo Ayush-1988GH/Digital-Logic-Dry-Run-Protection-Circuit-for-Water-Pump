@@ -1,12 +1,12 @@
 # Digital-Logic-Dry-Run-Protection-Circuit-for-Water-Pump
 Digital Water Pump Dry-Run Protection and Automatic Shutdown System
 
-1. Aim 
+1. Aim :
 To build a digital circuit that automatically switches off a water pump if it senses the pump 
 is running without water for too long, and to make the circuit remember this fault until it is 
 cleared by pressing a RESET button manually.
 
-2. Apparatus / Materials Required
+2. Apparatus / Materials Required :
  IC / Part No.  Component                    Qty
  74LS74         D Flip-Flop                   1
  74LS161        4-bit Synchronous Counter     1
@@ -29,7 +29,7 @@ cleared by pressing a RESET button manually.
  12V DC Adapter
  Connecting wires, Multimeter
 
-3. Theory 
+3. Theory :
 A water pump can get damaged if it keeps running when there is no water at its inlet. 
 This is called 
 dry running
@@ -53,7 +53,7 @@ This pulse is short, so a 74LS02 NOR latch is used to remember the fault permane
 which switches the pump OFF through a BC547 + TIP122 driver stage. Pressing RESET 
 clears both the counter and the latch so the demonstration can be repeated.
 
-4. Procedure 
+4. Procedure :
 Set the LM2596 output to exactly 5.0V using a multimeter before connecting any IC.
 Wire the water probes with transistor Q1 and one 74LS04 gate. Test that the WATER 
 signal goes HIGH when the probes are dipped in water.
@@ -78,7 +78,7 @@ Run the complete demonstration: press RESET, press START, remove the probes
 from water, watch the count reach 4, confirm the pump switches off on its own, then 
 press RESET to repeat.
 
-5. Precautions 
+5. Precautions :
 Always check the LM2596 output with a multimeter and set it to 5.0V before connecting 
 any IC.
 Keep the water container and the electrical breadboard physically separate from each 
@@ -95,7 +95,7 @@ Keep the pump's current-carrying wires separate from the logic wiring to avoid m
 noise resetting the ICs.
 Verify the flyback diode's direction across the pump before switching it on.
 
-6. Conclusion 
+6. Conclusion :
 The circuit successfully senses missing water, waits for a few seconds to confirm the fault 
 instead of reacting to a single splash, counts this time digitally, and switches the pump off 
 on its own once the fault is confirmed. The fault stays remembered until RESET is 
