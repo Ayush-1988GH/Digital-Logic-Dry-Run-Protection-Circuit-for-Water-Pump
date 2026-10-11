@@ -32,7 +32,7 @@ cleared by pressing a RESET button manually.
 | N/A     | Connecting wires, Multimeter                  |  1 Set  |
 ---------------------------------------------------------------------
 
-3. Theory :
+3. Theory & Working :
 A water pump can get damaged if it keeps running when there is no water at its inlet. 
 This is called 
 dry running
@@ -56,7 +56,7 @@ This pulse is short, so a 74LS02 NOR latch is used to remember the fault permane
 which switches the pump OFF through a BC547 + TIP122 driver stage. Pressing RESET 
 clears both the counter and the latch so the demonstration can be repeated.
 
-4. Procedure :
+4. Procedure : 
 Set the LM2596 output to exactly 5.0V using a multimeter before connecting any IC.
 Wire the water probes with transistor Q1 and one 74LS04 gate. Test that the WATER 
 signal goes HIGH when the probes are dipped in water.
